@@ -1,0 +1,35 @@
+display: Specifies the container as a flex container.
+
+
+flex-direction: Defines the main axis of the flex container.
+
+
+flex-wrap: Controls wrapping of flex items when they exceed the container's width or height.
+
+
+justify-content: Aligns flex items along the main axis of the container.
+
+
+align-items: Aligns flex items along the cross axis of the container.
+
+
+align-content: Aligns wrapped lines of flex items when there is extra space in the cross axis.
+
+
+
+order: Specifies the order of flex items.
+
+
+flex-grow: Specifies how much a flex item should grow relative to the rest of the flex items.
+
+
+flex-shrink: Specifies how much a flex item should shrink relative to the rest of the flex items.
+
+
+flex-basis: Specifies the initial size of a flex item before remaining space is distributed.
+
+
+flex: Shorthand for flex-grow, flex-shrink, and flex-basis.
+
+
+align-self: Overrides align-items for specific flex items.
