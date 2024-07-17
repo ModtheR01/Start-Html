@@ -157,8 +157,8 @@ section .row{
 }
 
 section .row .col{
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem; 
     padding: 2rem 1.2rem 2rem 1.2rem; 
     background-color: antiquewhite;
     border-radius: 1.8rem;
@@ -212,21 +212,13 @@ h2{
 }
 
 
-.col:nth-child(2){
+section .row .col:nth-child(1){
     position: relative;
-    bottom: 3rem;
-    right: 7rem;
-    width: 400%;
-    height: 60%;
-}
-
-.col:nth-child(1){
-    position: relative;
-    left: 6rem;
+    left: 5rem;
     top: 10rem;
-    width: 700%;
-    height: 85%;
-}
+    z-index: -1;
+    position: relative;
+} 
 
 .b1 {
     position: relative; 
