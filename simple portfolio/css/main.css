@@ -1,0 +1,300 @@
+:root{
+    --primary-color: #2C3E50;
+    --secondary-color: #1ABC9C;
+}
+
+/* Reset browser  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+scroll-behavior: smooth;
+}
+
+.navbar .container .navbar-items a{
+color: wheat;
+text-decoration: none;
+}  
+
+/* ul,li{
+    list-style: none;
+}  */
+/* Start Navbar Style  */
+
+body{
+    background-image: url('/assets/ai-generated-8854754_1920.jpg');
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+
+.navbar{
+    /* background-color: rgba(11, 33, 159, 0.995); */
+    position: sticky;
+}
+
+.navbar .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+}
+
+.navbar .container .navbar-items ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 1.8rem;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navbar .container .navbar-brand a{
+    font-size: 2.2rem;
+    transition: all 0.2s ease-in-out;
+    color: #fac20c;
+}
+.navbar .container .navbar-brand a:hover{
+    color: rgb(15, 23, 128);
+    background-color: rgb(76, 188, 100);
+    box-shadow: 0px 10px 20px 0px #d59310; 
+    padding: 5px;
+    border-radius: 7px ;
+}
+
+.navbar .container .navbar-items a {
+    font-size: 2.2rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.navbar .container .navbar-items a:hover{
+    color: rgb(113, 198, 17);
+    background-color: rgba(11, 143, 172, 0.633);
+    box-shadow: 0px 10px 20px 0px #d59310;
+    padding: 9px;
+    border-radius: 7px;
+}
+/* End Navbar Style  */
+
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+.showcase{
+    color: rgb(173, 185, 62);
+    /* background-color: var(--secondary-color); */
+    text-align: center;
+    padding-top: 2rem;
+    /* padding-bottom: 2rem; */
+    height: 17rem;
+    /* background-image: url('/assets/internet-7119396_1920.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.showcase h2{
+    font-size: 4rem;
+}
+
+* hr{
+    width: 10%;
+    border: 2px solid rgb(190, 6, 74);
+    margin: 16px auto;
+}
+
+.showcase .container p{
+    font-size: 2rem;
+    border: 2px solid;
+    border-radius: 22px;
+    border-color: #30b8ca;
+    margin-bottom: 5px;
+    background-image:linear-gradient(to left, black,rgb(7, 4, 80));
+}
+
+.showcase .container button,
+.about .container button{
+    background-color: rgb(110, 36, 201);
+    color: rgb(225, 255, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    margin-top: 15px;
+    font-size: 1.2rem;
+}
+
+.showcase .container button:hover
+,.about .container button:hover{
+    background-color: rgba(39, 255, 11, 0.766);
+    color: black;
+    box-shadow: 0 10px 10px 0 rgb(78, 7, 56);
+    border: none;
+    transform: rotate(3deg);
+    font-style:oblique;
+}
+
+.about{
+    color: rgb(173, 185, 62);
+    /* background-color:rgb(4, 35, 78); */
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    height: 35rem;
+    margin-top: 4rem;
+}
+
+.about h2{
+    font-size: 4rem;
+}
+
+
+.skills{
+    text-align: center;
+    /* background-color: rgb(11, 33, 64); */
+    color: #ADB93E;
+    margin-top: 12rem;
+}
+
+.skills .container h2{
+    font-size: 3rem;
+}
+
+.skills .box-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about .container .edu{
+    display: flex;
+
+}
+
+.about .container .edu .info,
+.about .container .edu .summary{
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    background-color: rgba(13, 63, 99, 0.901); 
+    border-radius: 15px;
+
+
+}
+
+.about .container .edu .info p,
+.about .container .edu .summary p {
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    font-size: 2rem;
+    color: rgb(86, 153, 236);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about .container .edu .info span,
+.about .container .edu .summary span{
+    font-style: italic;
+    font-size: 4rem;
+    color: rgb(54, 237, 96);
+    font-weight: bold;
+}
+
+.skills .container .box-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills .container .box-container .box{
+    font-size: 2rem;
+    border: 1px solid;
+    border-radius: 2.5rem;
+    margin-left: 2.5rem;
+    padding: 1.5rem 1.5rem 0.5rem 1.5rem;
+}
+
+.skills .container .box-container .box:nth-child(1){
+    background-color: #1F9CF0;
+}
+
+.skills .container .box-container .box:nth-child(1) span{
+    color: #1c1c1c;
+}
+
+.skills .container .box-container .box:nth-child(1) p{
+    color: #255329;
+}
+
+.skills .container .box-container .box:nth-child(2){
+    background-color: #F16A30;
+}
+
+.skills .container .box-container .box:nth-child(2) span {
+    color: #1c1c1c;
+}
+
+.skills .container .box-container .box:nth-child(2) p{
+    color: #ffffff;
+}
+
+.skills .container .box-container .box:nth-child(3){
+    background-color: #39ACDD;
+}
+
+.skills .container .box-container .box:nth-child(3) span {
+    color: #1c1c1c;
+}
+
+.skills .container .box-container .box:nth-child(3) p{
+    color: #99ed12;
+}
+
+.skills .container .box-container .box:nth-child(4){
+    background-color: #8019FA;
+}
+
+.skills .container .box-container .box:nth-child(4) span {
+    color: #1c1c1c;
+}
+
+.skills .container .box-container .box:nth-child(4) p{
+    color: #f2f2f2;
+}
+
+.skills .container .box-container .box:nth-child(5){
+    background-color: #F7E025;
+}
+
+.skills .container .box-container .box:nth-child(5) span {
+    color: #1c1c1c;
+}
+
+.skills .container .box-container .box:nth-child(5) p{
+    color: #1c1c1c;
+}
+
+.account .container .contact{
+    display: flex;
+    justify-content: space-around;
+}
+
+.account .container .contact a{
+    color: rgb(218, 60, 207);
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 50%;
+    margin: 1rem;
+    font-size: 3rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.account .container .contact a:hover{
+    background-color: rgba(39, 255, 11);
+    color: black;
+    box-shadow: 0 10px 10px 0 rgb(78, 7, 56);
+}
+
+.account .container h2{
+    color: #ADB93E;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.account .container{
+    margin-top: 3rem;
+}
