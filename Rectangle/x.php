@@ -8,23 +8,23 @@ class rectangle
         $this->width = $width;
         $this->length = $length;
     }
-    // Get Width 
-    public function getwidth($width): void
+    // set Width 
+    public function setwidth($width): void
     {
         $this->width = $width;
     }
-    // Get length   
-    public function getlength($length): void
+    // set length   
+    public function setlength($length): void
     {
         $this->length = $length;
     }
-    // Set width 
-    public function setwidth($width): float
+    // get width 
+    public function getwidth($width): float
     {
         return $this->width = $width;
     }
-    // Set length
-    public function setlength($length): float
+    // Get length
+    public function getlength($length): float
     {
         return $this->length = $length;
     }
